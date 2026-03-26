@@ -623,8 +623,16 @@ void explodeSS(std::string ss, Proxy &node)
         addition = ss.substr(ss.find('?') + 1);
         plugins = urlDecode(getUrlArg(addition, "plugin"));
         auto pluginpos = plugins.find(';');
-        plugin = plugins.substr(0, pluginpos);
-        pluginopts = plugins.substr(pluginpos + 1);
+        if(pluginpos == std::string::npos)
+        {
+            plugin = plugins;
+            pluginopts.clear();
+        }
+        else
+        {
+            plugin = plugins.substr(0, pluginpos);
+            pluginopts = plugins.substr(pluginpos + 1);
+        }
         group = getUrlArg(addition, "group");
         if(!group.empty())
             group = urlSafeBase64Decode(group);
@@ -1238,7 +1246,7 @@ void explodeClash(Node yamlnode, std::vector<Proxy> &nodes)
         Node singleproxy = yamlnode[section][i];
         std::string proxytype, ps, server, port, cipher, group, password, underlying_proxy; //common
         std::string type = "none", id, aid = "0", net = "tcp", path, host, edge, tls, sni, mode; //vmess/vless
-        std::string plugin, pluginopts, pluginopts_mode, pluginopts_host, pluginopts_mux; //ss
+        std::string plugin, pluginopts, pluginopts_mode, pluginopts_host, pluginopts_password, pluginopts_version, pluginopts_fingerprint, pluginopts_mux; //ss
         std::string protocol, protoparam, obfs, obfsparam; //ssr
         std::string user; //socks/http
         std::string ip, ipv6, private_key, public_key, mtu; //wireguard
@@ -1495,6 +1503,21 @@ void explodeClash(Node yamlnode, std::vector<Proxy> &nodes)
                         pluginopts_mux = safe_as<bool>(singleproxy["plugin-opts"]["mux"]) ? "mux=4;" : "";
                     }
                     break;
+                case "shadow-tls"_hash:
+                case "shadowtls"_hash:
+                    plugin = "shadow-tls";
+                    if(singleproxy["plugin-opts"].IsDefined())
+                    {
+                        singleproxy["plugin-opts"]["host"] >>= pluginopts_host;
+                        singleproxy["plugin-opts"]["password"] >>= pluginopts_password;
+                        int st_ver = safe_as<int>(singleproxy["plugin-opts"]["version"]);
+                        if(st_ver <= 0)
+                            pluginopts_version.clear();
+                        else
+                            pluginopts_version = std::to_string(st_ver);
+                        singleproxy["plugin-opts"]["client-fingerprint"] >>= pluginopts_fingerprint;
+                    }
+                    break;
                 default:
                     break;
                 }
@@ -1524,6 +1547,16 @@ void explodeClash(Node yamlnode, std::vector<Proxy> &nodes)
                 if(!pluginopts_mux.empty())
                     pluginopts += "mux=" + pluginopts_mux + ";";
                 break;
+            case "shadow-tls"_hash:
+                if(pluginopts_version.empty())
+                    pluginopts_version = "2";
+                if(pluginopts_fingerprint.empty())
+                    pluginopts_fingerprint = "chrome";
+                pluginopts = "host=" + pluginopts_host + ";password=" + pluginopts_password
+                           + ";version=" + pluginopts_version
+                           + ";client-fingerprint=" + pluginopts_fingerprint;
+                break;
+             }
             }
 
             //support for go-shadowsocks2

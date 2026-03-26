@@ -314,6 +314,24 @@ void proxyToClash(std::vector<Proxy> &nodes, YAML::Node &yamlnode, const ProxyGr
                 if(!scv.is_undef())
                     singleproxy["plugin-opts"]["skip-cert-verify"] = scv.get();
                 break;
+            case "shadow-tls"_hash:
+            case "shadowtls"_hash: {
+                singleproxy["plugin"] = "shadow-tls";
+                const std::string st_host = urlDecode(getUrlArg(pluginopts, "host"));
+                const std::string st_password = urlDecode(getUrlArg(pluginopts, "password"));
+                std::string st_version_str = getUrlArg(pluginopts, "version");
+                std::string st_fp = urlDecode(getUrlArg(pluginopts, "client-fingerprint"));
+                if(st_fp.empty())
+                    st_fp = "chrome";
+                int st_version = st_version_str.empty() ? 2 : to_int(st_version_str, 2);
+                if(st_version <= 0)
+                    st_version = 2;
+                singleproxy["plugin-opts"]["host"] = st_host;
+                singleproxy["plugin-opts"]["password"] = st_password;
+                singleproxy["plugin-opts"]["version"] = st_version;
+                singleproxy["plugin-opts"]["client-fingerprint"] = st_fp;
+                break;
+            }
             }
             if(!clashR && ext.uot)
             {
