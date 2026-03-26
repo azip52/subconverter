@@ -337,6 +337,7 @@ void proxyToClash(std::vector<Proxy> &nodes, YAML::Node &yamlnode, const ProxyGr
             {
                 singleproxy["udp-over-tcp"] = true;
                 singleproxy["udp-over-tcp-version"] = 2;
+                singleproxy["udp"] = true;
             }
             break;
         case ProxyType::VMess:
