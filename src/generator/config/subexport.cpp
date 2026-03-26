@@ -315,6 +315,11 @@ void proxyToClash(std::vector<Proxy> &nodes, YAML::Node &yamlnode, const ProxyGr
                     singleproxy["plugin-opts"]["skip-cert-verify"] = scv.get();
                 break;
             }
+            if(!clashR && ext.uot)
+            {
+                singleproxy["udp-over-tcp"] = true;
+                singleproxy["udp-over-tcp-version"] = 2;
+            }
             break;
         case ProxyType::VMess:
             singleproxy["type"] = "vmess";
