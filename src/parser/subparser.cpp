@@ -1556,7 +1556,6 @@ void explodeClash(Node yamlnode, std::vector<Proxy> &nodes)
                            + ";version=" + pluginopts_version
                            + ";client-fingerprint=" + pluginopts_fingerprint;
                 break;
-             }
             }
 
             //support for go-shadowsocks2
