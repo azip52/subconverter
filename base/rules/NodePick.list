@@ -1668,6 +1668,7 @@ DOMAIN-SUFFIX,dhcp.biz
 DOMAIN-SUFFIX,dialogflow.com
 DOMAIN-SUFFIX,diaoyuislands.org
 DOMAIN-SUFFIX,difangwenge.org
+DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,digiconomist.net
 DOMAIN-SUFFIX,digiland.tw
 DOMAIN-SUFFIX,digisfera.com
@@ -7423,3 +7424,4 @@ DOMAIN-SUFFIX,zyzc9.com
 DOMAIN-SUFFIX,zzcartoon.com
 DOMAIN-SUFFIX,zzcloud.me
 DOMAIN-SUFFIX,zzux.com
+PROCESS-NAME,Element.exe
