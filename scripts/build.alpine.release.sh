@@ -49,7 +49,6 @@ g++ -o base/subconverter $(find CMakeFiles/subconverter.dir/src/ -name "*.o")  -
 
 python3 -m ensurepip
 python3 -m pip install gitpython
-python3 scripts/update_rules.py -c scripts/rules_config.conf
 
 cd base
 chmod +rx subconverter
