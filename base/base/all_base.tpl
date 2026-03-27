@@ -1,20 +1,66 @@
 {% if request.target == "clash" or request.target == "clashr" %}
-
-port: {{ default(global.clash.http_port, "7890") }}
-socks-port: {{ default(global.clash.socks_port, "7891") }}
-allow-lan: {{ default(global.clash.allow_lan, "true") }}
+mixed-port: 7890
+port: 7891
+socks-port: 7892
+allow-lan: true
 mode: Rule
-log-level: {{ default(global.clash.log_level, "info") }}
-external-controller: {{ default(global.clash.external_controller, "127.0.0.1:9090") }}
-{% if default(request.clash.dns, "") == "1" %}
+find-process-mode: always
+ipv6: false
+unified-delay: true
+log-level: info
+secret: cisco123
+external-controller: 127.0.0.1:9090
 dns:
   enable: true
-  listen: :1053
-{% endif %}
+  ipv6: false
+  default-nameserver:
+    - https://223.5.5.5/dns-query
+    - https://120.53.53.53/dns-query
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports: [80]
+    TLS:
+      ports: [443]
+    QUIC:
+      ports: [443]
+  skip-domain:
+    - +.naxx.dev
+    - +.neax.dev
+    - +.bb28.dev
+    - +.2b9s.dev
+    - +.ds4kojima.com
+  skip-dst-address:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.0.0.0/24
+    - 192.0.2.0/24
+    - 192.88.99.0/24
+    - 192.168.0.0/16
+    - 198.18.0.0/15
+    - 198.51.100.0/24
+    - 203.0.113.0/24
+    - 224.0.0.0/3
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
-rules: ~
+rules:
+  - DOMAIN-SUFFIX,gov.tw,🔰 节点选择
 {% else %}
 Proxy: ~
 Proxy Group: ~

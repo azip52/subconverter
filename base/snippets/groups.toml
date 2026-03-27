@@ -1,91 +1,49 @@
 [[custom_groups]]
 name = "🔰 节点选择"
 type = "select"
-rule = ["[]♻️ 自动选择", "[]🎯 全球直连", ".*"]
-
-[[custom_groups]]
-name = "♻️ 自动选择"
-type = "url-test"
 rule = [".*"]
-url = "http://www.gstatic.com/generate_204"
-interval = 300
 
 [[custom_groups]]
-name = "🎥 NETFLIX"
+name = "👥 社交平台"
 type = "select"
-rule = [
-    "[]🔰 节点选择",
-    "[]♻️ 自动选择",
-    "[]🎯 全球直连",
-    ".*"
-]
+rule = ["(家)", ".*"]
 
 [[custom_groups]]
-name = "⛔️ 广告拦截"
+name = "🎬 全球媒体"
 type = "select"
-rule = ["[]🛑 全球拦截",
-"[]🎯 全球直连",
-"[]🔰 节点选择"
-]
+rule = ["(家)", ".*"]
 
 [[custom_groups]]
-name = "🚫 运营劫持"
+name = "🤖 人工智能"
 type = "select"
-rule = ["[]🛑 全球拦截",
-"[]🎯 全球直连",
-"[]🔰 节点选择"]
+rule = ["(家)", ".*"]
 
 [[custom_groups]]
-name = "🌍 国外媒体"
+name = "📲 即时通讯"
 type = "select"
-rule = ["[]🔰 节点选择",
-"[]♻️ 自动选择",
-"[]🎯 全球直连",
-".*"]
+rule = [".*"]
 
 [[custom_groups]]
-name = "🌏 国内媒体"
+name = "🍎 系统平台"
 type = "select"
-rule = ["[]🎯 全球直连",
-"(HGC|HKBN|PCCW|HKT|深台|彰化|新北|台|hk|港|tw)",
-"[]🔰 节点选择"]
+rule = ["[]🎯 直接连接", ".*"]
 
 [[custom_groups]]
-name = "Ⓜ️ 微软服务"
+name = "🎮 游戏下载"
 type = "select"
-rule = ["[]🎯 全球直连",
-"[]🔰 节点选择",
-".*"]
+rule = ["[]🎯 直接连接", ".*"]
 
 [[custom_groups]]
-name = "📲 电报信息"
+name = "🎯 直接连接"
 type = "select"
-rule = ["[]🔰 节点选择",
-"[]🎯 全球直连",
-".*"]
+rule = ["[]DIRECT", "[]🔰 节点选择"]
 
 [[custom_groups]]
-name = "🍎 苹果服务"
+name = "🛑 广告拦截"
 type = "select"
-rule = ["[]🔰 节点选择",
-"[]🎯 全球直连",
-"[]♻️ 自动选择",
-".*"]
-
-[[custom_groups]]
-name = "🎯 全球直连"
-type = "select"
-rule = ["[]DIRECT"]
-
-[[custom_groups]]
-name = "🛑 全球拦截"
-type = "select"
-rule = ["[]REJECT", "[]DIRECT"]
+rule = ["[]REJECT", "[]🎯 直接连接", "[]🔰 节点选择"]
 
 [[custom_groups]]
 name = "🐟 漏网之鱼"
 type = "select"
-rule = ["[]🔰 节点选择",
-"[]🎯 全球直连",
-"[]♻️ 自动选择",
-".*"]
+rule = ["[]🔰 节点选择"]
