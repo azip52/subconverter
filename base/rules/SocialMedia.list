@@ -378,3 +378,9 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,zuckerberg.com
 DOMAIN-SUFFIX,zuckerberg.net
+PROCESS-NAME,com.facebook.katana
+PROCESS-NAME,com.facebook.lite
+PROCESS-NAME,com.google.android.youtube
+PROCESS-NAME,com.instagram.android
+PROCESS-NAME,com.instagram.barcelona
+PROCESS-NAME,com.zhiliaoapp.musically
