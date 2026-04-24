@@ -23,44 +23,13 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 
-sniffer:
-  enable: true
-  force-dns-mapping: true
-  parse-pure-ip: true
-  override-destination: true
-  sniff:
-    HTTP:
-      ports: [80]
-    TLS:
-      ports: [443]
-    QUIC:
-      ports: [443]
-  skip-domain:
-    - +.naxx.dev
-    - +.neax.dev
-    - +.bb28.dev
-    - +.2b9s.dev
-    - +.ds4kojima.com
-  skip-dst-address:
-    - 0.0.0.0/8
-    - 10.0.0.0/8
-    - 100.64.0.0/10
-    - 127.0.0.0/8
-    - 169.254.0.0/16
-    - 172.16.0.0/12
-    - 192.0.0.0/24
-    - 192.0.2.0/24
-    - 192.88.99.0/24
-    - 192.168.0.0/16
-    - 198.18.0.0/15
-    - 198.51.100.0/24
-    - 203.0.113.0/24
-    - 224.0.0.0/3
+
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
 rules:
-  - DOMAIN-SUFFIX,gov.tw,🔰 节点选择
+  - DOMAIN-SUFFIX,genyoutube.online,🔰 节点选择
+  - PROCESS-NAME,CapCut.exe,🔰 节点选择
 {% else %}
 Proxy: ~
 Proxy Group: ~
