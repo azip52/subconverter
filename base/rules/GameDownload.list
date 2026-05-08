@@ -11,7 +11,6 @@ DOMAIN,cdn-qc.content.steamchina.com
 DOMAIN,cdn-ws.content.steamchina.com
 DOMAIN,client.hikarifield.co.jp
 DOMAIN,content.cdp.bethesda.net
-DOMAIN,dl.delivery.mp.microsoft.com
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,download.cdp.bethesda.net
 DOMAIN,download.dm.origin.com
@@ -42,7 +41,6 @@ DOMAIN,steampipe-partner.akamaized.net
 DOMAIN,steampipe.akamaized.net
 DOMAIN,steampipe.steamcontent.tnkjmec.com
 DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,tlu.dl.delivery.mp.microsoft.com
 DOMAIN,trts.baishancdnx.cn
 DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
 DOMAIN,us.cdn.blizzard.com

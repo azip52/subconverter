@@ -1,3 +1,4 @@
+DOMAIN,graph.facebook.com
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,trae-api-sg.mchost.guru
@@ -23,6 +24,7 @@ DOMAIN-KEYWORD,tiktokv
 DOMAIN-KEYWORD,tiktokvcdn
 DOMAIN-KEYWORD,tiktokvdata
 DOMAIN-KEYWORD,ttvnw
+DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,acebooik.com
@@ -48,6 +50,7 @@ DOMAIN-SUFFIX,carstagram.com
 DOMAIN-SUFFIX,celebgramme.com
 DOMAIN-SUFFIX,chickstagram.com
 DOMAIN-SUFFIX,click-url.com
+DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,componentkit.org
 DOMAIN-SUFFIX,crowdtangle.com
 DOMAIN-SUFFIX,dacebook.com
@@ -250,6 +253,7 @@ DOMAIN-SUFFIX,gameroom.com
 DOMAIN-SUFFIX,gfacecbook.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,groups.com
 DOMAIN-SUFFIX,hacklang.org
 DOMAIN-SUFFIX,hamivideo.hinet.net
@@ -334,7 +338,9 @@ DOMAIN-SUFFIX,opengraphprotocol.com
 DOMAIN-SUFFIX,opengraphprotocol.org
 DOMAIN-SUFFIX,ott.hinet.net
 DOMAIN-SUFFIX,parse.com
+DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,powersunitedvr.com
+DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,ptt.cc
 DOMAIN-SUFFIX,pyrobot.org
 DOMAIN-SUFFIX,react.com
@@ -347,6 +353,8 @@ DOMAIN-SUFFIX,rocksdb.net
 DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,sportstream.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tellapart.com
 DOMAIN-SUFFIX,terragraph.com
 DOMAIN-SUFFIX,thefind.com
 DOMAIN-SUFFIX,threads.net
@@ -356,8 +364,25 @@ DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-SUFFIX,ttwstatic.com
 DOMAIN-SUFFIX,tw.yahoo.com
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.biz
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,twitter.map.fastly.net
+DOMAIN-SUFFIX,twittercommunity.com
+DOMAIN-SUFFIX,twitterflightschool.com
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twitterstat.us
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,viblast.com
 DOMAIN-SUFFIX,video.google.com
+DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,whatsapp-plus.info
 DOMAIN-SUFFIX,whatsapp-plus.me
 DOMAIN-SUFFIX,whatsapp-plus.net
@@ -373,6 +398,8 @@ DOMAIN-SUFFIX,workplace.com
 DOMAIN-SUFFIX,workplaceusecases.com
 DOMAIN-SUFFIX,worldhack.com
 DOMAIN-SUFFIX,wwwfacebok.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,yogalayout.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
