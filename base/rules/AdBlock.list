@@ -40,8 +40,13 @@ DOMAIN,adx.op.cp18.ott.cibntv.net
 DOMAIN,adxlog.vivo.com.cn
 DOMAIN,apilog-web.acfun.cn
 DOMAIN,appcloud2.in.zhihu.com
+DOMAIN,apps.corel.com
+DOMAIN,compute-1.amazonaws.com
+DOMAIN,corelstore.com
 DOMAIN,dagonghuzhu.com
 DOMAIN,data-hoisin.coocaa.com
+DOMAIN,deploy.akamaitechnologies.com
+DOMAIN,dev1.ipm.corel.public.corel.net
 DOMAIN,dispatcher.360in.com
 DOMAIN,exp.360in.com
 DOMAIN,ggc.cmvideo.cn
@@ -51,9 +56,13 @@ DOMAIN,ggv.cmvideo.cn
 DOMAIN,ggx.cmvideo.cn
 DOMAIN,ggx03.miguvideo.com
 DOMAIN,glitter.services.disqus.com
+DOMAIN,googletagmanager.com
 DOMAIN,hbftgh.ibjkqnhjwd.xyz
 DOMAIN,hnrtg.iujkegbpo.xyz
 DOMAIN,iadmat.nosdn.127.net
+DOMAIN,ipm.corel.com
+DOMAIN,ipp.corel.com
+DOMAIN,iws.corel.com
 DOMAIN,js-ad.a.yximgs.com
 DOMAIN,juggler.services.disqus.com
 DOMAIN,kmef.ikjwmfeds.xyz
@@ -66,9 +75,11 @@ DOMAIN,log3-applog-hl.fqnovel.com
 DOMAIN,log3-applog.fqnovel.com
 DOMAIN,log5-applog-hl.fqnovel.com
 DOMAIN,log5-applog.fqnovel.com
+DOMAIN,mc.corel.com
 DOMAIN,mqtt.zhihu.com
 DOMAIN,nadvideo2.baidu.com
 DOMAIN,nggfe.fdgem.com
+DOMAIN,origin-mc.corel.com
 DOMAIN,p3-ad-sign.byteimg.com
 DOMAIN,p6-ad-sign.byteimg.com
 DOMAIN,p9-ad-sign.byteimg.com
@@ -90,6 +101,7 @@ DOMAIN,tempest.services.disqus.com
 DOMAIN,tmead.y.qq.com
 DOMAIN,vcardsdkservice.vivo.com.cn
 DOMAIN,wlog.kuaishou.com
+DOMAIN,www.corelstore.com
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adform
@@ -6176,6 +6188,7 @@ DOMAIN-SUFFIX,ocsp.godaddy.com
 DOMAIN-SUFFIX,odc.starwave.com
 DOMAIN-SUFFIX,odin.goo.mx
 DOMAIN-SUFFIX,officeme.cn
+DOMAIN-SUFFIX,officeplus.cn
 DOMAIN-SUFFIX,offline-adv.oray.com
 DOMAIN-SUFFIX,oikxlcv.wang
 DOMAIN-SUFFIX,oimagea2.ydstatic.com
@@ -9003,3 +9016,4 @@ DOMAIN-SUFFIX,zzy1.mipujia.com
 DOMAIN-SUFFIX,zzy1.quyaoya.com
 DOMAIN-SUFFIX,zzz7.52896368.com
 DOMAIN-SUFFIX,zzzzz4.52896368.com
+IP-CIDR,2.18.12.147/32,no-resolve
