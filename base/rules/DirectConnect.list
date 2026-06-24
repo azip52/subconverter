@@ -32850,6 +32850,7 @@ DOMAIN-SUFFIX,fumaofawu.com
 DOMAIN-SUFFIX,fumi.com
 DOMAIN-SUFFIX,fumiaoyinpin.com
 DOMAIN-SUFFIX,fumin.com
+DOMAIN-SUFFIX,fumirror.com
 DOMAIN-SUFFIX,fumu.com
 DOMAIN-SUFFIX,fumubang.com
 DOMAIN-SUFFIX,fun.tv
@@ -114370,6 +114371,7 @@ PROCESS-NAME,com.hpbr.bosszhipin
 PROCESS-NAME,com.hunantv.imgo.activity
 PROCESS-NAME,com.icbc
 PROCESS-NAME,com.kugou.android
+PROCESS-NAME,com.luojilab.player
 PROCESS-NAME,com.moonshot.kimichat
 PROCESS-NAME,com.netease.cloudmusic
 PROCESS-NAME,com.qiyi.video
@@ -114393,6 +114395,7 @@ PROCESS-NAME,com.tencent.mobileqq
 PROCESS-NAME,com.tencent.mtt
 PROCESS-NAME,com.tencent.qqmusic
 PROCESS-NAME,com.tencent.wemeet.app
+PROCESS-NAME,com.tencent.weread
 PROCESS-NAME,com.tencent.wework
 PROCESS-NAME,com.tmri.app.main
 PROCESS-NAME,com.unionpay
