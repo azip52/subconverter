@@ -25,7 +25,6 @@ DOMAIN-KEYWORD,tiktokvcdn
 DOMAIN-KEYWORD,tiktokvdata
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,acebooik.com
 DOMAIN-SUFFIX,acebook.com
@@ -252,8 +251,6 @@ DOMAIN-SUFFIX,futureofbusinesssurvey.org
 DOMAIN-SUFFIX,gacebook.com
 DOMAIN-SUFFIX,gameroom.com
 DOMAIN-SUFFIX,gfacecbook.com
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,groups.com
 DOMAIN-SUFFIX,hacklang.org
@@ -382,7 +379,6 @@ DOMAIN-SUFFIX,twttr.com
 DOMAIN-SUFFIX,twttr.net
 DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,viblast.com
-DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,votetw.com
 DOMAIN-SUFFIX,whatsapp-plus.info
@@ -403,9 +399,6 @@ DOMAIN-SUFFIX,wwwfacebok.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,yogalayout.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,zuckerberg.com
 DOMAIN-SUFFIX,zuckerberg.net
 PROCESS-NAME,com.facebook.katana
