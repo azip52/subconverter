@@ -70,6 +70,7 @@ DOMAIN-KEYWORD,ccgslb
 DOMAIN-KEYWORD,chinacache
 DOMAIN-KEYWORD,cxsecapp
 DOMAIN-KEYWORD,duobao
+DOMAIN-KEYWORD,heytap
 DOMAIN-KEYWORD,jdpay
 DOMAIN-KEYWORD,kaiheila.cn
 DOMAIN-KEYWORD,kookapp.cn
@@ -114315,6 +114316,7 @@ PROCESS-NAME,com.chinamworld.bocmbci
 PROCESS-NAME,com.chinamworld.main
 PROCESS-NAME,com.cib.cibmb
 PROCESS-NAME,com.citiccard.mobilebank
+PROCESS-NAME,com.coolapk.market
 PROCESS-NAME,com.dianping.v1
 PROCESS-NAME,com.douban.frodo
 PROCESS-NAME,com.ecitic.bank.mobile
