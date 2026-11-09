@@ -1343,7 +1343,6 @@ DOMAIN-SUFFIX,aerserv.com
 DOMAIN-SUFFIX,aes01.com
 DOMAIN-SUFFIX,aeventlog.beacon.qq.com
 DOMAIN-SUFFIX,afd.baidu.com
-DOMAIN-SUFFIX,afd.l.google.com
 DOMAIN-SUFFIX,afdconf.baidu.com
 DOMAIN-SUFFIX,aff.eteachergroup.com
 DOMAIN-SUFFIX,aff.lmgtfy.com
@@ -1371,7 +1370,6 @@ DOMAIN-SUFFIX,afpimages.eastday
 DOMAIN-SUFFIX,afpimages.eastday.com
 DOMAIN-SUFFIX,afpmm.alicdn.com
 DOMAIN-SUFFIX,afptrack.csbew.com
-DOMAIN-SUFFIX,afs.googlesyndication.com
 DOMAIN-SUFFIX,ag-gb.marketgid.com
 DOMAIN-SUFFIX,ag.nukefans.net
 DOMAIN-SUFFIX,agenda.complex.com
@@ -3944,9 +3942,6 @@ DOMAIN-SUFFIX,golden1.sogou.com
 DOMAIN-SUFFIX,good.ta80.com
 DOMAIN-SUFFIX,googleadsserving.cn
 DOMAIN-SUFFIX,googlecommerce.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,goolpter.com
 DOMAIN-SUFFIX,gopig.io
 DOMAIN-SUFFIX,gorgon.youdao.com
@@ -6316,10 +6311,6 @@ DOMAIN-SUFFIX,pad.zhywyl.cn
 DOMAIN-SUFFIX,padsdel2.cdnads.com
 DOMAIN-SUFFIX,page.acm.dzwww.com
 DOMAIN-SUFFIX,page.xywy.com
-DOMAIN-SUFFIX,pagead-tpc.l.google.com
-DOMAIN-SUFFIX,pagead.google.com
-DOMAIN-SUFFIX,pagead.l.google.com
-DOMAIN-SUFFIX,pagead2.googlesyndication.com
 DOMAIN-SUFFIX,pagechoice.com
 DOMAIN-SUFFIX,pagechoice.net
 DOMAIN-SUFFIX,pagechoicemotu.gentags.net
@@ -7832,7 +7823,6 @@ DOMAIN-SUFFIX,touclick.com
 DOMAIN-SUFFIX,toutiao.2haha.com
 DOMAIN-SUFFIX,toutiao.jxnews.com.cn
 DOMAIN-SUFFIX,tp.sgcn.com
-DOMAIN-SUFFIX,tpc.googlesyndication.com
 DOMAIN-SUFFIX,tpe163.com
 DOMAIN-SUFFIX,tpstelemetry.tencent.com
 DOMAIN-SUFFIX,tpush.html5.qq.com
@@ -8185,7 +8175,6 @@ DOMAIN-SUFFIX,vi2.ku6img.net
 DOMAIN-SUFFIX,vichc.com
 DOMAIN-SUFFIX,victorjx.com
 DOMAIN-SUFFIX,vid.applovin.com
-DOMAIN-SUFFIX,video-ad-stats.googlesyndication.com
 DOMAIN-SUFFIX,video.cooguo.com
 DOMAIN-SUFFIX,video.ktkjmp.com
 DOMAIN-SUFFIX,video.ureport.push.qq.com
@@ -8488,7 +8477,6 @@ DOMAIN-SUFFIX,ww9.onetad.com
 DOMAIN-SUFFIX,wwis-dubc1-vip60.adobe.com
 DOMAIN-SUFFIX,wwv.onetad.com
 DOMAIN-SUFFIX,www-777563.com
-DOMAIN-SUFFIX,www.google-analytics.com
 DOMAIN-SUFFIX,www.govshenzhen.cn
 DOMAIN-SUFFIX,www2.xinmin.cn
 DOMAIN-SUFFIX,www6.smartadserver.com
